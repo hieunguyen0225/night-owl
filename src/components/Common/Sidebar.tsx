@@ -98,7 +98,7 @@ const Sidebar: FC<SidebarProps> = ({ isSidebarActive, setIsSidebarActive }) => {
         )}
 
         <div
-          className={`text-white text-lg font-medium ${
+          className={`text-black text-lg font-medium ${
             isSidebarActive ? "-mt-6" : "mt-12"
           }`}
         >
@@ -110,7 +110,7 @@ const Sidebar: FC<SidebarProps> = ({ isSidebarActive, setIsSidebarActive }) => {
             className={`flex gap-6 items-center  ${
               location.pathname === "/" &&
               "!text-primary border-r-4 border-primary font-medium"
-            } hover:text-white transition duration-300`}
+            } hover:text-black transition duration-300`}
           >
             <AiOutlineHome size={25} />
             <p>Home</p>
@@ -121,7 +121,7 @@ const Sidebar: FC<SidebarProps> = ({ isSidebarActive, setIsSidebarActive }) => {
             className={`flex gap-6 items-center  ${
               location.pathname === "/explore" &&
               "!text-primary border-r-4 border-primary font-medium"
-            } hover:text-white transition duration-300`}
+            } hover:text-black transition duration-300`}
           >
             <MdOutlineExplore size={25} />
             <p>Explore</p>
@@ -132,7 +132,7 @@ const Sidebar: FC<SidebarProps> = ({ isSidebarActive, setIsSidebarActive }) => {
             className={`flex gap-5 items-center  ${
               location.pathname === "/shorts" &&
               "!text-primary border-r-4 border-primary font-medium"
-            } hover:text-white transition duration-300`}
+            } hover:text-black transition duration-300`}
           >
             <TbBrandTiktok size={30} />
             <p>Shorts</p>
@@ -143,21 +143,21 @@ const Sidebar: FC<SidebarProps> = ({ isSidebarActive, setIsSidebarActive }) => {
             className={`flex gap-6 items-center  ${
               location.pathname === "/search" &&
               "!text-primary border-r-4 border-primary font-medium"
-            } hover:text-white transition duration-300`}
+            } hover:text-black transition duration-300`}
           >
             <BiSearch size={25} />
             <p>Search</p>
           </Link>
         </div>
 
-        <div className="text-white text-lg font-medium mt-12">PERSONAL</div>
+        <div className="text-black text-lg font-medium mt-12">PERSONAL</div>
         <div className="mt-8 ml-4 flex flex-col gap-6">
           <button
             onClick={() => personalPageHandler("/bookmarked")}
             className={`flex gap-6 items-center  ${
               location.pathname === "/bookmarked" &&
               "!text-primary border-r-4 border-primary font-medium"
-            } hover:text-white transition duration-300`}
+            } hover:text-black transition duration-300`}
           >
             <BsBookmarkHeart size={25} />
             <p>Bookmarked</p>
@@ -168,21 +168,21 @@ const Sidebar: FC<SidebarProps> = ({ isSidebarActive, setIsSidebarActive }) => {
             className={`flex gap-6 items-center  ${
               location.pathname === "/history" &&
               "!text-primary border-r-4 border-primary font-medium"
-            } hover:text-white transition duration-300`}
+            } hover:text-black transition duration-300`}
           >
             <AiOutlineHistory size={25} />
             <p>History</p>
           </button>
         </div>
 
-        <div className="text-white text-lg font-medium mt-12">GENERAL</div>
+        <div className="text-black text-lg font-medium mt-12">GENERAL</div>
         <div className="mt-8 ml-4 flex flex-col gap-6">
           <button
             onClick={() => personalPageHandler("/profile")}
             className={`flex gap-6 items-center  ${
               location.pathname === "/profile" &&
               "!text-primary border-r-4 border-primary font-medium"
-            } hover:text-white transition duration-300`}
+            } hover:text-black transition duration-300`}
           >
             <BiUserCircle size={25} />
             <p>Profile</p>
