@@ -1,4 +1,3 @@
-// hello sejong second time
 
 module.exports = {
   plugins: {
