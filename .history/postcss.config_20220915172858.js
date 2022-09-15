@@ -1,5 +1,4 @@
-// hello sejong second time
-
+// hello sejong
 module.exports = {
   plugins: {
     tailwindcss: {},
