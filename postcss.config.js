@@ -1,3 +1,4 @@
+  // Hello World
 module.exports = {
   plugins: {
     tailwindcss: {},
