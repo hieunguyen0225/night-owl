@@ -1,4 +1,4 @@
-  // Hello World HLLL
+  // Hello World
 module.exports = {
   plugins: {
     tailwindcss: {},
