@@ -1,5 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-
+//hello it is hue
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
