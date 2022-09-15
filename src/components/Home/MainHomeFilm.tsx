@@ -1,3 +1,6 @@
+//this is a comment
+
+
 import { FC } from "react";
 import { HomeFilms } from "../../shared/types";
 import Skeleton from "../Common/Skeleton";
