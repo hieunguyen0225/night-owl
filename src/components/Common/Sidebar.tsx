@@ -90,7 +90,7 @@ const Sidebar: FC<SidebarProps> = ({ isSidebarActive, setIsSidebarActive }) => {
               effect="opacity"
               className="w-10 h-10"
             />
-            <h1 className="text-xl text-white tracking-widest font-semibold uppercase">
+            <h1 className="text-xl text-black tracking-widest font-semibold uppercase">
               <span>Night</span>
               <span className="text-primary">Owl</span>
             </h1>
