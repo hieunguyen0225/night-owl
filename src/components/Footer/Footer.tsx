@@ -23,7 +23,7 @@ const Footer: FunctionComponent<FooterProps> = () => {
             <AiFillGithub size={25} />
           </a>
           <a
-            href="https://www.facebook.com/azizkhon1612/"
+            href="https://www.facebook.com/profile.php?id=100007670862363"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary transition duration-300"
