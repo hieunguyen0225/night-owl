@@ -55,14 +55,10 @@ return (
               <p>{currentUser?.displayName || "Anonymous"}</p>
               <LazyLoadImage
                 src={
-                  currentUser
-                    ? (currentUser.photoURL as string)
-                    : "/defaultAvatar.jpg"
+                 "DefaultAvatar.png"
                 }
                 alt="User avatar"
                 className="w-7 h-7 rounded-full object-cover"
-                effect="opacity"
-                referrerPolicy="no-referrer"
               />
             </div>
           </div>
@@ -97,4 +93,3 @@ return (
   );
 };
 
-export default Home;
