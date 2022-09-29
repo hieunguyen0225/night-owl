@@ -1,7 +1,4 @@
-import "./index.css";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/autoplay";
+
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 import "react-circular-progressbar/dist/styles.css";

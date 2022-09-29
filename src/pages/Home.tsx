@@ -33,8 +33,8 @@ return (
                 }}
                 className={`${
                   currentTab === "tv" &&
-                  "text-white font-medium after:absolute "
-                } transition duration-300 hover:text-white`}
+                  "text-white font-medium"
+                } hover:text-white`}
               >
                 TV Show
               </button>
@@ -45,7 +45,7 @@ return (
                 }}
                 className={`${
                   currentTab === "movie" &&
-                  "text-white font-medium after:absolute after:bottom-0 "
+                  "text-white font-medium"
                 } transition hover:text-white`}
               >
                 Movie
@@ -81,7 +81,7 @@ return (
           )}
         </div>
 
-        <div className="shrink-0 max-w-[310px] w-full hidden lg:block  top-0 sticky ">
+        <div className="shrink-0 max-w-[310px] w-full hidden">
           <SearchBox />
           <RecommendGenres currentTab={currentTab} />
           <TrendingNow />
